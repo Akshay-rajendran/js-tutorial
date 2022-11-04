@@ -73,10 +73,13 @@ console.log(stud.hasOwnProperty("address"));
     }
  ]
 
+ // print first object
  console.log(smartphone[0])
 
+//print price from the second object
  console.log(smartphone[2].price)
 
+ //add an extra object to the array
  smartphone.push(
     {
         model:"v23",
@@ -86,13 +89,15 @@ console.log(stud.hasOwnProperty("address"));
  )
  console.log(smartphone)
 
-
+//delete the brand from the third object 
   delete smartphone[3].brand
   console.log(smartphone); 
   
+  //adding elemrnt stock to the first object
  smartphone[0].stock=50000 
  console.log(smartphone);
 
+ //delete first object from the array
  smartphone.pop()
  console.log(smartphone);
 
