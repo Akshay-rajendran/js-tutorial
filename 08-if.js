@@ -16,6 +16,9 @@ oddEven(7)
 
 
 
+
+
+
 function birthYear(x){
     if(x==2004){
         console.log("you are 18");
@@ -30,3 +33,28 @@ function birthYear(x){
 birthYear(2005)
 birthYear(2001)
 birthYear(2004)
+
+
+
+
+
+function wishMe(x){                    
+    
+    
+     if(x==18){
+       console.log("today is Your birthday");
+
+    }else if(x>18){
+              console.log("sorry ,you Birthday is in next year");
+    }else if(x<18){
+                a=18-x 
+                console.log("you  Birthday is after " + a +" days");
+
+    }else{
+       console.log("invalid  Message")
+    }
+}
+wishMe(6)
+wishMe(18)
+wishMe(27)
+
