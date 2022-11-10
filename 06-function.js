@@ -78,3 +78,17 @@ function basketBall(a,b,c){
 let d=basketBall
 let o = d(6,9,1)
 console.log(o);
+
+
+                    //NEW WORK//
+
+
+
+
+
+ function getNumberOfLeg(x,y){
+    b=(x*2)+(y*4)
+    return ("total legs of hen and goat = "+b)
+ }   
+ let m=getNumberOfLeg(4,6)   
+ console.log(m);             
